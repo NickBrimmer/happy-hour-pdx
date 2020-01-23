@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Playlist Script";
+  src: url("./assets/Playlist-Script.otf") format("opentype");
+}
+
+
+html {
+    background-color: white;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    margin:0;
+    padding: 0;
+    width: 100vw;
+    font-family: "Roboto";
+    font-weight: 400;
+    background-color:#fffd48;
+    height: 100%;
+}
+
+main {
+    letter-spacing: 3px;
+    font-weight: 700;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffd48;
+}
+
+h1, h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+button {
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    width: 150px;
+    box-shadow: 0px 3px 1px #aaaa;
+}
+
+input {
+    display: flex;
+    margin-bottom: 10px;
+    width: 250px;
+    font-size: 17px;
+}
+
+label span {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.header-background {
+    display: flex;
+    justify-content: center;
+    color: #fffd48;
+    margin: 0;
+    height: 70vh;
+    width: 100vw;
+    padding: 0;
+    background-image: url(./assets/happyHRpdxMap.jpg);
+    background-size: cover;
+}
+
+.header-background h1 {
+    margin-top: 100px;
+}
+
+.hr-in-logo {
+    font-family: "Playlist Script";
+}
+
+@media only screen and (min-width: 1024px) {
+ 
+    .header-background h1 {
+    margin-top: 200px;
+    font-size: 150px;
+}
+
+ 
+}

@@ -1,0 +1,2 @@
+# happy-hour-pdx
+Front-End Progressive Web App. The goal of this project was to create a web app where users could navigate happy hours in the Portland Metro area. The execution of this app began with a manually seeded database and then all parts were dynamically rendered. While everyone was involved in all aspects of this project, my greatest contribution was in the overall design, color pallet, images and typography. This app was able to create a favorites list as well as highlight preferences the user had.
